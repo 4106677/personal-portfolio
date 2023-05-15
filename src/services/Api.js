@@ -4,9 +4,15 @@ const skillsList = [
   { type: "front", name: "JavaScript", level: "Intermediate" },
   { type: "front", name: "React", level: "Intermediate" },
   { type: "front", name: "TypeScript", level: "Beginner" },
+  { type: "front", name: "ReactNative", level: "Basic" },
+
   { type: "back", name: "Node Js", level: "Basic" },
   { type: "back", name: "Firebase", level: "Basic" },
-  { type: "back", name: "MongoDb", level: "Intermediate" },
+  { type: "back", name: "MongoDB", level: "Intermediate" },
+  { type: "back", name: "Docker", level: "Beginner" },
+
+  { type: "added", name: "Next Js", level: "Basic" },
+  { type: "added", name: "Postman", level: "Basic" },
 ];
 
 export const getSkills = (type) => {

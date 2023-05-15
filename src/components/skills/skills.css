@@ -19,13 +19,6 @@
 }
 
 .skills__box {
-  /* gap: 1rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-start; */
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
@@ -50,6 +43,8 @@
 .skills__level {
   font-size: var(--tiny-font-size);
 }
+
+/*-------Carousel-----*/
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

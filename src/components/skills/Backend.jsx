@@ -1,5 +1,5 @@
 import React from "react";
-import { getSkills } from "../services/Api";
+import { getSkills } from "../../services/Api";
 import { nanoid } from "nanoid";
 
 const Backend = () => {
