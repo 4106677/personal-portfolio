@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 
 const Qualification = () => {
-  const [toggler, setToggler] = useState(1);
+  const [toggler, setToggler] = useState(2);
 
   const toggleTab = (index) => {
     setToggler(index);
