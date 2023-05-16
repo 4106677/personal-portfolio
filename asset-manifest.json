@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.b80e7892.css",
-    "main.js": "/personal-portfolio/static/js/main.a09ddf3f.js",
+    "main.css": "/personal-portfolio/static/css/main.1d2698c7.css",
+    "main.js": "/personal-portfolio/static/js/main.768f918d.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/YaroslavOliinyk.pdf": "/personal-portfolio/static/media/YaroslavOliinyk.7ed36e9e82b5bb7cebc8.pdf",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.86bf346b52b686b115ec.jpg",
@@ -10,12 +10,12 @@
     "static/media/send.svg": "/personal-portfolio/static/media/send.4a0813ca6ebabd61a600f44a681415f9.svg",
     "static/media/scroll.svg": "/personal-portfolio/static/media/scroll.d56f8c39457cd116ea1558680ef49750.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.b80e7892.css.map": "/personal-portfolio/static/css/main.b80e7892.css.map",
-    "main.a09ddf3f.js.map": "/personal-portfolio/static/js/main.a09ddf3f.js.map",
+    "main.1d2698c7.css.map": "/personal-portfolio/static/css/main.1d2698c7.css.map",
+    "main.768f918d.js.map": "/personal-portfolio/static/js/main.768f918d.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b80e7892.css",
-    "static/js/main.a09ddf3f.js"
+    "static/css/main.1d2698c7.css",
+    "static/js/main.768f918d.js"
   ]
 }
