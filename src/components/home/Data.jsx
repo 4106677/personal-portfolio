@@ -16,7 +16,7 @@ const Data = () => {
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say Hello
+        Send Message
         <Send />
       </a>
     </div>

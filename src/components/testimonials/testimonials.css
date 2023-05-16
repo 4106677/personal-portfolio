@@ -24,7 +24,7 @@
 
 .testimonials__description {
   font-size: var(--small-font-size);
-  height: 100px;
+  height: 8rem;
   overflow: auto;
 }
 

@@ -2,14 +2,10 @@ import React from "react";
 import "./testimonials.css";
 import { reviews } from "../../services/Api";
 
-// Import Swiper React components
+// Import Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import { Pagination } from "swiper";
 
 const Testimonials = () => {
@@ -34,10 +30,6 @@ const Testimonials = () => {
             slidesPerView: 2,
             spaceBetween: 48,
           },
-          //   1024: {
-          //     slidesPerView: 5,
-          //     spaceBetween: 50,
-          //   },
         }}
         modules={[Pagination]}
       >
