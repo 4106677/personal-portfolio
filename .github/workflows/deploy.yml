@@ -14,8 +14,22 @@ jobs:
 
       - name: Store variables
         run: |
-          echo ${{ secrets.SERVICE_ID }}
-          echo "REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}"
+          mkdir front-app
+          cd front-app
+          touch .env
+          echo 'REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}' >> .env
+
+      - name: Leak variables
+        run: |
+          cd front-app
+          ls -al
+          cat .env
+          cat .env | hexdump
+
+      # - name: Store variables
+      #   run: |
+      #     echo ${{ secrets.SERVICE_ID }}
+      #     echo "REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}"
 
       - name: Install, lint, build 🔧
         run: |
