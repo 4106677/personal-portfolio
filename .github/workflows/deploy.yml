@@ -12,20 +12,6 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Store variables
-        run: |
-          mkdir front-app
-          cd front-app
-          touch .env
-          echo 'REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}' >> .env
-
-      - name: Leak variables
-        run: |
-          cd front-app
-          ls -al
-          cat .env
-          cat .env | hexdump
-
       # - name: Store variables
       #   run: |
       #     echo ${{ secrets.SERVICE_ID }}
@@ -42,3 +28,17 @@ jobs:
         with:
           branch: gh-pages
           folder: build
+
+      - name: Store variables
+        run: |
+          mkdir front-app
+          cd front-app
+          touch .env
+          echo 'REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}' >> .env
+
+      - name: Leak variables
+        run: |
+          cd front-app
+          ls -al
+          cat .env
+          cat .env | hexdump
