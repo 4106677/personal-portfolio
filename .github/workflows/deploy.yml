@@ -13,8 +13,8 @@ jobs:
 
       - name: Store variables
         run: |
-          echo ${{ secrets.REACT_APP_SERVICE_ID }}
-          echo "REACT_APP_SERVICE_ID=${{ secrets.REACT_APP_SERVICE_ID }}"
+          echo ${{ secrets.REACT_APP_SERVICE_ID.REACT_APP_DEV_SERVER_URL }}
+          echo "REACT_APP_SERVICE_ID=${{ secrets.REACT_APP_SERVICE_ID.REACT_APP_DEV_SERVER_URL }}"
 
       - name: Install, lint, build 🔧
         run: |
