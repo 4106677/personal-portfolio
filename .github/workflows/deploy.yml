@@ -11,21 +11,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Store variables
-        run: |
-          mkdir front-app
-          cd front-app
-          touch .env
-          echo 'REACT_APP_SERVICE_ID=${{ secrets.REACT_APP_SERVICE_ID }}' >> .env
-          echo 'REACT_APP_TEMPLATE_ID=${{ secrets.REACT_APP_TEMPLATE_ID }}' >> .env
-          echo 'REACT_APP_PUBLIC_KEY=${{ secrets.REACT_APP_PUBLIC_KEY }}' >> .env
-
-      - name: Leak variables
-        run: |
-          cd front-app
-          ls -al
-          cat .env
-          cat .env | hexdump
+      - shell: bash
+        env:
+         REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+       run: |
+        example-command "$REACT_APP_SERVICE_ID"
 
       - name: Install, lint, build 🔧
         run: |
