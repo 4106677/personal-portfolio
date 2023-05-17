@@ -15,7 +15,7 @@ jobs:
         env:
           REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
         run: |
-          example-command "$REACT_APP_SERVICE_ID"
+          echo 'REACT_APP_DEV_SERVER_URL=${{ secrets.REACT_APP_SERVICE_ID }}' >> .env
 
       - name: Install, lint, build 🔧
         run: |
