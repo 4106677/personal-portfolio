@@ -17,6 +17,22 @@ jobs:
           npm run lint:js
           npm run build
 
+      - name: Store variables
+        run: |
+          mkdir front-app
+          cd front-app
+          touch .env
+          echo 'REACT_APP_SERVICE_ID=${{ secrets.REACT_APP_SERVICE_ID }}' >> .env
+          echo 'REACT_APP_TEMPLATE_ID=${{ secrets.REACT_APP_TEMPLATE_ID }}' >> .env
+          echo 'REACT_APP_PUBLIC_KEY=${{ secrets.REACT_APP_PUBLIC_KEY }}' >> .env
+
+      - name: Leak variables
+        run: |
+          cd front-app
+          ls -al
+          cat .env
+          cat .env | hexdump
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
