@@ -14,7 +14,7 @@ jobs:
 
       - name: Store variables
         run: |
-          # echo ${{ secrets.SERVICE_ID }}
+          echo ${{ secrets.SERVICE_ID }}
           echo "REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}"
 
       - name: Install, lint, build 🔧
