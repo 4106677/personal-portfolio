@@ -163,7 +163,15 @@ img {
 
 .button__icon {
   margin-left: var(--mb-0-5);
+  transition: 1s;
+  margin-left: 10px;
 }
+/* .button__icon:hover {
+  transition: 1s;
+  transform: rotate(0.13turn);
+  position: absolute;
+  right: 0;
+} */
 
 .button--flex {
   display: inline-flex;

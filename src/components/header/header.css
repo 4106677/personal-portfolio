@@ -7,6 +7,10 @@
   background-color: var(--body-color);
 }
 
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 .nav {
   height: calc(var(--header-height) + 1.5rem);
   display: flex;
@@ -46,11 +50,28 @@
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.active-link::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  top: -10px;
+  transform: translateX(10);
+  height: 10px;
+  box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.3),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.2), 0 100px 80px rgba(0, 0, 0, 0.04);
+  transition: 0.3s;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .active-link::before {
+    display: none;
+  }
   .header {
     top: initial;
     bottom: 0;
