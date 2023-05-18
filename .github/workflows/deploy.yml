@@ -7,15 +7,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    # environment: production
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-
-      # - name: Store variables
-      #   run: |
-      #     echo ${{ secrets.SERVICE_ID }}
-      #     echo "REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}"
 
       - name: Install, lint, build 🔧
         run: |
@@ -32,17 +26,3 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-
-      # - name: Store variables
-      #   run: |
-      #     mkdir front-app
-      #     cd front-app
-      #     touch .env
-      #     echo 'REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }}' >> .env
-
-      # - name: Leak variables
-      #   run: |
-      #     cd front-app
-      #     ls -al
-      #     cat .env
-      #     cat .env | hexdump

@@ -36,7 +36,7 @@ export const reviews = [
     id: 3,
     image:
       "https://media.licdn.com/dms/image/D4D03AQGXA2-dWKh9gw/profile-displayphoto-shrink_100_100/0/1673722147830?e=1689811200&v=beta&t=Bu6_zwvFMs6UW0HdoNfN7KKxpNkIvxUD_-DXYAGsEv8",
-    title: "Anna Zauholnikov",
+    title: "Anna Zauholnikova",
     description:
       "Yaroslav Oliinyk works well in a team, communicates easily with colleagues. Also during the Fullstack Developer course he showed himself in the best way as a team leader on team projects. Actively helped the team with solving any problem in the application code or technical problems on the project. Yaroslav is responsible, attentive to details and proactive.",
   },

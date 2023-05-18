@@ -30,7 +30,7 @@ const ContactCard = () => {
           className="contact__button"
           target="_blanc"
         >
-          Write me
+          Contact me
           <i className="bx bx-right-arrow-alt contact__button-icon"></i>
         </a>
       </div>
@@ -42,7 +42,7 @@ const ContactCard = () => {
         <span className="contact__card-data">+38 (063) 410-66-77</span>
 
         <a href="tel:+380634106677" className="contact__button" target="_blanc">
-          Write me
+          Call me
           <i className="bx bx-right-arrow-alt contact__button-icon"></i>
         </a>
       </div>

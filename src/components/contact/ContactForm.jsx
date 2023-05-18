@@ -2,12 +2,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ReactComponent as Send } from "../../assets/send.svg";
 
-console.log(
-  process.env.REACT_APP_SERVICE_ID,
-  process.env.REACT_APP_TEMPLATE_ID,
-  process.env.REACT_APP_PUBLIC_KEY
-);
-
 const ContactForm = () => {
   const form = useRef();
 
@@ -51,7 +45,6 @@ const ContactForm = () => {
           name="project"
           cols="30"
           rows="10"
-          contact__form-input
           className="contact__form-input"
           placeholder="Write you project"
         ></textarea>
