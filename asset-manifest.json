@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.41305838.css",
-    "main.js": "/personal-portfolio/static/js/main.061a12bd.js",
+    "main.css": "/personal-portfolio/static/css/main.ff899371.css",
+    "main.js": "/personal-portfolio/static/js/main.0a077229.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/YaroslavOliinyk.pdf": "/personal-portfolio/static/media/YaroslavOliinyk.7ed36e9e82b5bb7cebc8.pdf",
+    "static/media/simpson-homer.gif": "/personal-portfolio/static/media/simpson-homer.ab031268a7d74eaa96ac.gif",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.86bf346b52b686b115ec.jpg",
     "static/media/hand.svg": "/personal-portfolio/static/media/hand.330b49cc7cd3bedaa20e738eb0d42fc1.svg",
     "static/media/files.svg": "/personal-portfolio/static/media/files.74c3b361a053cb539ec37423a375bb40.svg",
     "static/media/send.svg": "/personal-portfolio/static/media/send.4a0813ca6ebabd61a600f44a681415f9.svg",
     "static/media/scroll.svg": "/personal-portfolio/static/media/scroll.d56f8c39457cd116ea1558680ef49750.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.41305838.css.map": "/personal-portfolio/static/css/main.41305838.css.map",
-    "main.061a12bd.js.map": "/personal-portfolio/static/js/main.061a12bd.js.map",
+    "main.ff899371.css.map": "/personal-portfolio/static/css/main.ff899371.css.map",
+    "main.0a077229.js.map": "/personal-portfolio/static/js/main.0a077229.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41305838.css",
-    "static/js/main.061a12bd.js"
+    "static/css/main.ff899371.css",
+    "static/js/main.0a077229.js"
   ]
 }
