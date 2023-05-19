@@ -1,3 +1,29 @@
+import axios from "axios";
+import { projectsData } from "./buckupData";
+
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
+
+export const getProjects = (page, limit) =>
+  axios
+    .get()
+    .then((res) => {
+      return res.data;
+    })
+    .catch((e) => {
+      console.log(e.message);
+      return projectsData;
+    });
+// if (page && limit) {
+//   const { data } = await axios.get(`?limit=${limit}&page=${page}`);
+//   console.log(data);
+//   return data;
+// } else {
+// const { data } = await axios.get();
+// return data;
+
+// return data.length;
+// }
+
 const skillsList = [
   { type: "front", name: "HTML", level: "Intermediate" },
   { type: "front", name: "CSS", level: "Intermediate" },
