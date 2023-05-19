@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getProjects } from "../../services/Api";
 import WorksItem from "./WorksItem";
-import { matchMedia } from "../../helpers/matchMedia";
+// import { matchMedia } from "../../helpers/matchMedia";
 
 const projectFilters = [
   { name: "all" },
@@ -14,9 +14,9 @@ const Works = () => {
   const [filter, setFilter] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
 
-  //   const [projects, setProjects] = useState(() => {
-  //     return JSON.parse(localStorage.getItem("projects") ?? []);
-  //   });
+  // const [projects, setProjects] = useState(() => {
+  //   return JSON.parse(localStorage.getItem("projects") ?? []);
+  // });
 
   const [visibleProjects, setVisibleProjects] = useState([]);
   const [active, setActive] = useState(0);
@@ -24,10 +24,12 @@ const Works = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    setIsLoaded(true);
     getProjects()
       .then((res) => {
         setProjects(res);
         setVisibleProjects(res);
+        setIsLoaded(false);
       })
       .catch((e) => console.log(e.message));
   }, []);
