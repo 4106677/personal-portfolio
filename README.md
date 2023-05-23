@@ -1,7 +1,18 @@
-# Getting Started with Create React App
+<div align="center">
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  <h2 align="center">My Personal Portfolio Website</h2>
 
-In the project directory, you can run:
+  Fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+
+  <a href="https://4106677.github.io/personal-portfolio/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![Desktop Demo](./src/assets/desktop.jpg "Desktop Demo")
+
