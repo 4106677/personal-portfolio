@@ -3,7 +3,7 @@ import { projectsData } from "./buckupData";
 
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
-export const getProjects = (page, limit) =>
+export const getProjects = () =>
   axios
     .get()
     .then((res) => {
@@ -13,16 +13,6 @@ export const getProjects = (page, limit) =>
       console.log(e.message);
       return projectsData;
     });
-// if (page && limit) {
-//   const { data } = await axios.get(`?limit=${limit}&page=${page}`);
-//   console.log(data);
-//   return data;
-// } else {
-// const { data } = await axios.get();
-// return data;
-
-// return data.length;
-// }
 
 const skillsList = [
   { type: "front", name: "HTML", level: "Intermediate" },
@@ -45,7 +35,7 @@ export const reviews = [
   {
     id: 1,
     image:
-      "https://media.licdn.com/dms/image/D4D03AQHporvnMNWd2A/profile-displayphoto-shrink_100_100/0/1671054533515?e=1689811200&v=beta&t=9rOCaawYF3TiN1ukOIiv34k1j776rlAG3WiksxYl6mA",
+      "https://media.licdn.com/dms/image/D4D35AQEIRcKEQ0jgLA/profile-framedphoto-shrink_800_800/0/1671059863943?e=1696777200&v=beta&t=bfroBA1sXjqe-Cdxorv-68Wx66-ig26pDTm-dpmQhNc",
     title: "Vitalii Kablukov",
     description:
       "In the team, Yaroslav showed very cool skills as a Team-leader and incredible work in the team. this man have a good potential.",
@@ -53,7 +43,7 @@ export const reviews = [
   {
     id: 2,
     image:
-      "https://media.licdn.com/dms/image/D4E03AQE5jJa0cc8nrQ/profile-displayphoto-shrink_100_100/0/1674112151213?e=1689811200&v=beta&t=zAyO2ofwV9w23Nlv87vtGD4Lvo4lCvs2h6FxOeIsDoQ",
+      "https://media.licdn.com/dms/image/D4D03AQGvtEKoagqYiw/profile-displayphoto-shrink_200_200/0/1693054100201?e=1701907200&v=beta&t=tFbn1JcyEJF3HOzjHM0UD5ALCILhm6dMzmJ_1xuKCb8",
     title: "Kateryna Kononenko",
     description:
       "With Yaroslav we have worked together on a project, and I found him a highly skilled and dedicated professional. As team leader he was very responsible and orginized. His expertise in the field of IT developing and his leadership has helped our team to get a great result. I highly recommend him to anyone looking for help on their team or project.",
@@ -61,7 +51,7 @@ export const reviews = [
   {
     id: 3,
     image:
-      "https://media.licdn.com/dms/image/D4D03AQGXA2-dWKh9gw/profile-displayphoto-shrink_100_100/0/1673722147830?e=1689811200&v=beta&t=Bu6_zwvFMs6UW0HdoNfN7KKxpNkIvxUD_-DXYAGsEv8",
+      "https://media.licdn.com/dms/image/D4D03AQGXA2-dWKh9gw/profile-displayphoto-shrink_200_200/0/1673722147830?e=1701907200&v=beta&t=vcqqHo3-b9x81nRMhn5imqiI1L3dccqvBMdtfx7zkMk",
     title: "Anna Zauholnikova",
     description:
       "Yaroslav Oliinyk works well in a team, communicates easily with colleagues. Also during the Fullstack Developer course he showed himself in the best way as a team leader on team projects. Actively helped the team with solving any problem in the application code or technical problems on the project. Yaroslav is responsible, attentive to details and proactive.",
@@ -69,7 +59,7 @@ export const reviews = [
   {
     id: 4,
     image:
-      "https://media.licdn.com/dms/image/C4D03AQGMIwJv00NR2g/profile-displayphoto-shrink_100_100/0/1651482629087?e=1689811200&v=beta&t=GP5dIWFYo7gsPoZmfehygspcchJukRU_KdbvRGX5Bd0",
+      "https://media.licdn.com/dms/image/C4D03AQGMIwJv00NR2g/profile-displayphoto-shrink_200_200/0/1651482629087?e=1701907200&v=beta&t=JMjTEzc4uARNJo0JFsHHxgnE0M89OdSyDtDrlnI_-3c",
     title: "Oleksandr Pavlov",
     description:
       "We worked with Yaroslav on few team projects during studying at GoIT. Yaroslav is a strong team player, responsible person and effective developer. You can always be sure that if some task was given to him — it will be done. Only positive impressions from cooperation. Good luck!",

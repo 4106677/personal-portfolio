@@ -2,7 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import { reviews } from "../../services/Api";
 
-// Import Swiper
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

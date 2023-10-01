@@ -3,6 +3,10 @@ import React from "react";
 
 const journeyData = [
   {
+    name: "Frontend Developer",
+    period: "2023 - now",
+    place: "Kovalska Digital",
+  }, {
     name: "Project Manager",
     period: "2017 - 2022",
     place: "Furniture company 'MIRT'",
