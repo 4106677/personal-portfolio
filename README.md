@@ -18,6 +18,6 @@ Fully responsive personal portfolio website, <br />Responsive for all devices, b
 ### HeatGuard proposal
 
 Ukrainian cooperation proposal with ownership terms, two budgets and three mobile UI concepts:
-[Open proposal](https://4106677.github.io/personal-portfolio/proposals/).
+[Open proposal](https://4106677.github.io/personal-portfolio/proposals/ivik_heatGuard/).
 
-Source: `public/proposals/`. This standalone route is copied into the production build and works directly on GitHub Pages without SPA rewrites. Browser print supports saving the proposal as PDF. Mockups use demonstration data and do not connect to equipment.
+Source: `public/proposals/ivik_heatGuard/`. This standalone route is copied into the production build and works directly on GitHub Pages without SPA rewrites. Browser print supports saving the proposal as PDF. Mockups use demonstration data and do not connect to equipment.

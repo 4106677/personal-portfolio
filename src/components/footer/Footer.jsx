@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href={`${process.env.PUBLIC_URL}/proposals/`} className="footer__link">
+            <a href={`${process.env.PUBLIC_URL}/proposals/ivik_heatGuard/`} className="footer__link">
               Пропозиції
             </a>
           </li>
