@@ -24,6 +24,11 @@ const Footer = () => {
               Testimonials
             </a>
           </li>
+          <li>
+            <a href={`${process.env.PUBLIC_URL}/propozytsii/`} className="footer__link">
+              Пропозиції
+            </a>
+          </li>
         </ul>
 
         <div className="footer__social">
