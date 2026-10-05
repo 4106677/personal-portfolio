@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.ff899371.css",
-    "main.js": "/personal-portfolio/static/js/main.85929c00.js",
+    "main.js": "/personal-portfolio/static/js/main.eba27a78.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Oleksandr_Pavlov.png": "/personal-portfolio/static/media/Oleksandr_Pavlov.74b84723b72b707d574f.png",
     "static/media/simpson-homer.gif": "/personal-portfolio/static/media/simpson-homer.ab031268a7d74eaa96ac.gif",
@@ -19,11 +19,11 @@
     "static/media/scroll.svg": "/personal-portfolio/static/media/scroll.d56f8c39457cd116ea1558680ef49750.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.ff899371.css.map": "/personal-portfolio/static/css/main.ff899371.css.map",
-    "main.85929c00.js.map": "/personal-portfolio/static/js/main.85929c00.js.map",
+    "main.eba27a78.js.map": "/personal-portfolio/static/js/main.eba27a78.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff899371.css",
-    "static/js/main.85929c00.js"
+    "static/js/main.eba27a78.js"
   ]
 }
